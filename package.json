@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
+    "test-watch": "jest --watch",
     "webpack": "webpack",
     "webpack-watch": "webpack --watch"
   },
@@ -19,8 +20,6 @@
   },
   "homepage": "https://github.com/mlhokie/my-portfolio#readme",
   "dependencies": {
-    "local-web-server": "^2.5.2",
-    "npm": "^6.0.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   },
