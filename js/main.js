@@ -11,7 +11,14 @@ const myWork = [
       'desc': "example image of professional certification stamp",
       'src': "images/certifiedstamp.png",
       'comment': ""
-    }
+    },
+    'images': [
+       "images/OSfund.png",
+       "images/Netfund.png",
+       "images/Aplus.png",
+       "images/Networkplus.png",
+       "images/CIOS.png"
+    ]
   },
   {
     'title': "Online Classes",
