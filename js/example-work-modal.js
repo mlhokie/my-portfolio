@@ -1,21 +1,16 @@
 import React from 'react';
 
 class ExampleWorkModal extends React.Component {
-
   render() {
     let example = this.props.example;
     let modalClass = this.props.open ? 'modal--open' : 'modal--closed';
-    const images = example.images.map((imageUrl, i) => <img src={imageUrl} />)
-
+  
     return (
       <div className={"background--skyBlue " + modalClass}>
         <span className="color--cloud modal__closeButton"
           onClick={this.props.closeModal}>
           <i className="fa fa-window-close-o"></i>
         </span>
-        <div className="modal__images">
-          {images}
-        </div>
         <img alt={ example.image.desc }
              className="modal__image"
              src={ example.image.src }/>
