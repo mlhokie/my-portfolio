@@ -34,7 +34,7 @@ describe("ExampleWork component", () => {
   });
 
   it("Should contain as many children as work examples", () => {
-    expect(component.find('ExampleWorkBubble').length).toEqual(myWork.length);
+    expect(component.find("ExampleWorkBubble").length).toEqual(myWork.length);
   });
 
   it("Should allow the modal to open and close", () => {
