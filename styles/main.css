@@ -215,7 +215,6 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   font-size: 2.4rem;
   padding: 2rem;
-  width: 66%;
 }
 
 .modal__link {
@@ -229,7 +228,7 @@ h1, h2, h3, h4, h5, h6 {
 .modal__images {
 
   width: 80%
-  
+
   display: block
 }
 
@@ -238,5 +237,37 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #banner-image {
-  margin-left: 40px
+  margin-left: 40px;
+}
+
+.footer-banner-image {
+  margin-right: 40px;
+  text-align: right;
+}
+.cert-images li {
+  display: inline-block;
+  list-style: none;
+  margin-right: 10px;
+}
+.cert-images li img{
+  width: 300px;
+}
+
+.background--skyBlue.modal--open {
+  overflow: auto;
+}
+.modal__description.bubble {
+  text-align: left;
+}
+.left {
+  text-align: left;
+}
+.modal__description.bubble span {
+  margin-left: 25px;
+}
+.welcome-description {
+  font-size: 21px;
+}
+.welcome-text {
+  text-align: center;
 }

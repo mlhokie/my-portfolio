@@ -4,7 +4,7 @@ class ExampleWorkModal extends React.Component {
   render() {
     let example = this.props.example;
     let modalClass = this.props.open ? 'modal--open' : 'modal--closed';
-  
+
     return (
       <div className={"background--skyBlue " + modalClass}>
         <span className="color--cloud modal__closeButton"
@@ -22,9 +22,22 @@ class ExampleWorkModal extends React.Component {
              href={ example.href }>
             Check it out
           </a>
-          <p className="modal__description">
-            { example.desc }
-          </p>
+            {( typeof example.desc == 'object') ? example.desc.map((desc, i) => {
+              return (<p className="modal__description bubble" key={`${i}-paragraph`}>
+                <span>{ desc }</span>
+              </p>)
+            }) : (<p className="modal__description bubble"><span>{example.desc}</span></p>)}
+
+          <ul className="cert-images">
+          { (example.descriptionImages !== undefined)
+            ? example.descriptionImages.map((image, i) => {
+              return (<li key={i}>
+                  <img src={image} />
+                </li>)
+            }) : null
+          }
+
+          </ul>
         </div>
       </div>
     )
