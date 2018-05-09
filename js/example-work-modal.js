@@ -20,7 +20,7 @@ class ExampleWorkModal extends React.Component {
           </h2>
           <a className="color--skyBlue modal__link"
              href={ example.href }>
-            Check it out
+            Click for Resume
           </a>
             {( typeof example.desc == 'object') ? example.desc.map((desc, i) => {
               return (<p className="modal__description bubble" key={`${i}-paragraph`}>
