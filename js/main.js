@@ -32,7 +32,7 @@ Right as 2018 started to roll in I decided to make a serious change and get form
     },
     'descriptionImages': ['images/VT.png',
     'images/cci-training.png', 'images/acloudguru.png',
-    'images/Linux-Academy.png', 'images/stormwind.png']
+    'images/Linux-Academy.png', 'images/stormwind.png',]
   },
   {
     'title': "Interests",

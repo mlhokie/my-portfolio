@@ -70,15 +70,27 @@
 
     <section class="section section--alignCentered section--description">
       <p class="color--darkgrey section__description left">
-         This portfolio serves two purposes. First, it allows me to expand the scope of my technical
+         This portfolio serves two purposes.  First, it allows me to expand the scope of my technical
          skills and gain valuable knowledge that's applicable for a career in IT. Second, it allows
-         viewers to learn more about me beyond a piece of paper. This is a serverless portfolio hosted
-         in the cloud by AWS. It's utilizing services such as Lambda, CodeBuild, CodePipeline, S3 and Route 53. I
-         am also using AWS's CDN, Cloudfront, to allow it to be globally cached on the numerous edge locations for
-         ease of distribution around the world. In conjunction with: React, GitHub, Python, NPM, Webpack, and Babel, the site is
-         efficient, easily scalable, and cost-effective to host.
+         viewers to learn more about me beyond my resume and the architecture used to create it.
+      </p>
+
+      <p class="color--darkgrey section__description left">
+         This is a serverless portfolio hosted
+         in the cloud utilizing AWS. Directly below is a flow chart of the architecture design. Visitors go to my domain managed by Route 53. Route 53 directs the request to CloudFront
+         which globally distributes the site. CloudFront retrieves my portfolio from S3. The portfolio that reaches the user is made up of HTML, CSS, Javascript, and images. React is used for interactivity
+         and Babel ensures it runs on multiple browsers. Together that makes up the frontend.
+      </p>
+
+      <p class="color--darkgrey section__description left">
+        So how does the content get to S3? The source code lives in GitHub. Once the code is pushed, AWS Codebuild takes over and runs unit test with Jest, then packages the code
+        with NPM, Webpack, and Babel where the results are stored in S3. CodePipeline then runs a Lambda function that deploys the code to the portfolio's S3 bucket. A Lambda function also
+        sends an SNS message to notify me that the code was deployed. Together all these services ensure the site is efficient, easily scalable, and cost-effective to host.
 
       </p>
+    <div>
+        <img src="images/WebFlow.png" />
+     </div>
 
     <div id="example-work"></div>
 
