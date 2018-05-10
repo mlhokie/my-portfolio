@@ -1,11 +1,14 @@
 # Michael Luongo's potfolio
 
-This is my professional portfolio. It uses AWS and ReactJS.
+This is my professional portfolio. It uses multiple AWS services including: S3, CodeBuild, CodePipeline, Lambda, SNS, CloudFront, and Route 53. Then ReactJS for interactivity.
 
 ## Technologies Used
 
-Brew
-Git and github
+Babel
+Git and GitHub
+Jest
+npm
+Webpack
 SSH
 HTML
 CSS
