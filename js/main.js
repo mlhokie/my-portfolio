@@ -22,7 +22,7 @@ const myWork = [
     'desc': [`I received a BS degree in Education from Virginia Tech.
 Shortly after graduation, I was offered a postion in Marketing/Sales with Skechers USA as a Territory Manager for the Mid-Atlantic region of the US.
 After several years doing that I relocated to Charlotte, NC where I quickly became Assistant Branch Manager for Enterprise Rent-A-Car.`, `I returned to NJ, the area I grew up in, after awhile to return to teaching.
-After 2 years of substitute teaching and not having an opportunity for a permanent position I decided to become an Independent Contractor and work for myself, transporting RV's, boats, and horse trailers all around the USA and Canada.
+After 2 years of substitute teaching and not having an opportunity for a permanent position, I decided to become an Independent Contractor and work for myself, transporting RV's, boats, and horse trailers all around the USA and Canada.
  Several years in I really started to focus on preparing for a career in IT.`, `I've always had a passion for technology and the way it had evolved over the years. I started watching online videos and participating in online lectures.
 Right as 2018 started to roll in I decided to make a serious change and get formal training. I chose CCI Training center in Dallas, TX. There I have learned the foundation to IT. I was able to build on and fill in all the missing gaps
 in knowledge. Check out my Certifications page to view my certificates thus far.`,
