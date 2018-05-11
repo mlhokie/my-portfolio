@@ -94,7 +94,7 @@
       </p>
 
       <p class="color--darkgrey section__description left">
-        So how does the content get to S3? The source code lives in GitHub. Once the code is pushed, AWS Codebuild takes over and runs unit test with Jest, then packages the code
+        So how does the content get to S3? It starts out with me typing code from my home PC. The source code lives in GitHub. Once the code is pushed, AWS Codebuild takes over and runs unit test with Jest, then packages the code
         with NPM, Webpack, and Babel where the results are stored in S3. CodePipeline then runs a Lambda function that deploys the code to the portfolio's S3 bucket. A Lambda function also
         sends an SNS message to notify me that the code was deployed. Together all these services ensure the site is efficient, easily scalable, and cost-effective to host.
       </p>
